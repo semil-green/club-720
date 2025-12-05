@@ -11,6 +11,7 @@ import React from 'react'
 const page = () => {
     return (
         <>
+            <p>checking deploymnet</p>
             <Banner title="About us" />
             <FeatureSection />
             <MissionVisionSection />
