@@ -32,9 +32,9 @@ const MissionVisionSection = () => {
 
                 {/* Header Section */}
                 <div className="text-center mb-12 md:mb-16">
-                    <div className="flex justify-center items-center text-cyan-600 mb-2">
+                    <div className="flex justify-center items-center text-cyan-400 mb-2">
                         <Rocket className="w-5 h-5 mr-1" />
-                        <h3 className="text-2xl font-semibold tracking-tight">
+                        <h3 className="text-4xl font-semibold tracking-tight">
                             Mission & Vision
                         </h3>
                     </div>
@@ -64,7 +64,7 @@ const MissionVisionSection = () => {
                               -rotate-6 translate-x-3 -translate-y-2`}
                                 ></div>
                                 <card.icon
-                                    className={`w-12 h-12 relative z-10 ${card.iconColor} ${card.iconRotation}`}
+                                    className={`w-12 h-12 relative z-10 text-cyan-400 ${card.iconRotation}`}
                                 />
                             </div>
 

@@ -9,7 +9,7 @@ const FeatureSection = () => {
     return (
         <div className="w-full py-12 md:py-24 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div className="lg:grid lg:grid-cols-2 lg:gap-14 items-center">
 
                     <div className="order-2 lg:order-1 mb-8 lg:mb-0">
                         <div className="relative aspect-[3/2] rounded-xl overflow-hidden shadow-2xl">
@@ -28,9 +28,9 @@ const FeatureSection = () => {
 
                     <div className="order-1 lg:order-2">
 
-                        <div className="flex items-center text-teal-600 mb-4">
+                        <div className="flex items-center text-cyan-400  mb-4">
                             <LineChart className="w-6 h-6 mr-2" />
-                            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">
+                            <h2 className="text-2xl sm:text-3xl  font-bold tracking-tight">
                                 Bridging Gaps, One Home At A Time
                             </h2>
                         </div>

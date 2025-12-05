@@ -23,7 +23,7 @@ const PartnershipsSection = () => {
                     {/* --- Left Column: Text Content --- */}
                     <div className="w-full lg:w-5/12 flex flex-col items-start">
                         {/* Label with Icon */}
-                        <div className="flex items-center text-cyan-500 font-bold text-lg mb-4">
+                        <div className="flex items-center text-cyan-400 font-bold text-lg mb-4">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ const PartnershipsSection = () => {
                         </ul>
 
                         {/* Call to Action Button */}
-                        <button className="group bg-cyan-400 hover:bg-cyan-500 text-white text-lg font-bold py-4 px-8 rounded shadow-lg transition-all duration-300 flex items-center">
+                        <button className="group bg-cyan-400 hover:bg-cyan-400 text-white text-lg font-bold py-4 px-8 rounded shadow-lg transition-all duration-300 flex items-center">
                             PARTNER WITH US
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />

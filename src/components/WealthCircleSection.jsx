@@ -36,8 +36,10 @@ export default function WealthCircleSection() {
         <section className="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-14 items-center">
             {/* Left Section Text */}
             <div>
-                <h3 className="text-cyan-500 font-semibold text-lg mb-3 flex items-center gap-2">
-                    <PieChart className="w-6 h-6" /> H.O.M.E. Method
+                <h3 className="text-cyan-500 font-semibold  mb-3 text-3xl flex items-center gap-2">
+                    <PieChart className="w-6 h-6" />
+
+                    H.O.M.E. Method
                 </h3>
 
                 <h1 className="text-4xl font-bold text-slate-900 mb-5">

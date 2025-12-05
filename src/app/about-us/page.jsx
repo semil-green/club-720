@@ -10,16 +10,18 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>
+        <>
             <Banner title="About us" />
             <FeatureSection />
             <MissionVisionSection />
             <WealthCircleSection />
             <OurStorySection />
             <PartnershipsSection />
-            <Testimonials />
-            <NewsletterSignup />
-        </div>
+            <div className="flex min-h-screen flex-col items-center justify-between">
+                <Testimonials />
+                <NewsletterSignup />
+            </div>
+        </>
     )
 }
 
